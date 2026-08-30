@@ -1,0 +1,21 @@
+# python / venvs
+.venv/
+__pycache__/
+
+# llama.cpp binary (fetched by install.sh, never committed)
+llama/llama-native/
+llama/llama-b10621/
+llama/ll.tar.gz
+
+# runtime state
+.quant
+.backend
+.server.pid
+*.log
+lastreq.json
+
+# scratch
+fib.py
+# local machine misc
+opencode.json
+post-install.sh
